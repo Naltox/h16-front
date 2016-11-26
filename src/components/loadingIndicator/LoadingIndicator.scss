@@ -1,0 +1,17 @@
+.LoadingIndicator {
+  background-image: url('./Loading.svg');
+  display:block;
+  width: 54px;
+  height: 54px;
+  margin-top: 250px;
+  animation: rotating 1s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFF;
+  color: #000;
+  direction: ltr;
+  font-size: 13px;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+  line-height: 1.154;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto
+}
+
+hr {
+  border: none;
+  opacity: 0.4;
+  background: #E3E4E8;;
+  height: 1px;
+  margin: 12px 0;
+}
+
+input, textarea {
+  background: #FFFFFF;
+  border: 1px solid #C3CAD2;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #000;
+  letter-spacing: 0.3px;
+  line-height: normal;
+  -webkit-appearance: none;
+  outline: 0;
+  padding: 0 10px;
+  &::-webkit-input-placeholder {color:#808080; font-weight: 100; }
+  &::-moz-placeholder          {color:#808080; font-weight: 100; }/* Firefox 19+ */
+  &:-moz-placeholder           {color:#808080; font-weight: 100; }/* Firefox 18- */
+  &:-ms-input-placeholder      {color:#808080; font-weight: 100; }
+}
+
+.errorInput {
+  background: #FFFFFF;
+  border: 1px solid #ED797B;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #000;
+  letter-spacing: 0.3px;
+  line-height: normal;
+  outline: 0;
+  padding: 0 10px;
+  &::-webkit-input-placeholder {color: #E34E51; font-weight: 100; }
+  &::-moz-placeholder          {color:#E34E51; font-weight: 100; }/* Firefox 19+ */
+  &:-moz-placeholder           {color:#E34E51; font-weight: 100; }/* Firefox 18- */
+  &:-ms-input-placeholder      {color:#E34E51; font-weight: 100; }
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  appearance: none;
+  resize: none;
+  line-height: normal;
+  padding: 5px 10px;
+}
